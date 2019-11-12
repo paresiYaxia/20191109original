@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 30.303 s <<< FAILURE! - in TestSuite
+loginAttemptTest on [FacebookLoginTest passed=0 failed=0 skipped=0](testCases.regression.FacebookLoginTest)  Time elapsed: 26.066 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using xpath=//a[contains(text(), 'Forgot Password?')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Paresis-MacBook-Air-2.local', ip: 'fe80:0:0:0:1873:dbc1:7763:36db%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15', java.version: '1.8.0_201'
+Driver info: driver.version: RemoteWebDriver
+	at testCases.regression.FacebookLoginTest.loginAttemptTest(FacebookLoginTest.java:42)
+
